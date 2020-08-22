@@ -12,8 +12,8 @@ public class LoadAsset : MonoBehaviour
     {
         for (int i = 0; i < 1; i++)
         {
-            Instantiate(blueObject, new Vector3(2, 0, 0), Quaternion.identity);
-            Instantiate(redObject, new Vector3(-2, 0, 0), Quaternion.identity);
+            Instantiate(blueObject, new Vector3(-2, 0, 0), Quaternion.identity);
+            Instantiate(redObject, new Vector3(2, 0, 0), Quaternion.identity);
         }
     }
 
