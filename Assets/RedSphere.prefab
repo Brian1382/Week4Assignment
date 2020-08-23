@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 495158741072449436}
   - component: {fileID: 7018782888594819244}
   - component: {fileID: 7037558373739556043}
-  - component: {fileID: 1549262488435700071}
+  - component: {fileID: 2662266085939481461}
   m_Layer: 0
   m_Name: RedSphere
-  m_TagString: Untagged
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,7 +94,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1549262488435700071
+--- !u!114 &2662266085939481461
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109,4 +109,5 @@ MonoBehaviour:
   redObject: {fileID: 3316334360856465025}
   blueObject: {fileID: 4013733906143515209, guid: c26ef2b66cb76d844bd562c2241448d5,
     type: 3}
+  rend: {fileID: 7018782888594819244}
   i: 0

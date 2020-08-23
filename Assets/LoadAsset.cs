@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class LoadAsset : MonoBehaviour
 {
-    public GameObject redObject;
+    public GameObject redSphere;
     [SerializeField]
-    private GameObject blueObject;
+    private GameObject blueSphere;
     // Start is called before the first frame update
     void Start()
     {
         for (int i = 0; i < 1; i++)
         {
-            Instantiate(blueObject, new Vector3(-2, 0, 0), Quaternion.identity);
-            Instantiate(redObject, new Vector3(2, 0, 0), Quaternion.identity);
+            Instantiate(blueSphere, new Vector3(-2, 0, 0), Quaternion.identity);
+            Instantiate(redSphere, new Vector3(2, 0, 0), Quaternion.identity);
         }
     }
 
